@@ -14,9 +14,12 @@
   },
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "firebase-admin": "^9.2.0",
     "firebase-functions": "^3.11.0",
-    "mysql": "^2.18.1"
+    "knex": "^0.21.16",
+    "mysql": "^2.18.1",
+    "objection": "^2.2.13"
   },
   "devDependencies": {
     "eslint": "^7.6.0",
